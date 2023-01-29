@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid{
+    
+    height: 600px;
+    background-image: url(https://thumbs.dreamstime.com/b/assorted-indian-recipes-food-various-spices-rice-wooden-table-92742528.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex1 ul{
+   float: right;
+   
+}
+.flex1 ul li{
+    float: left;
+    margin: 10px 0px 0px 20px;
+    list-style: none;
+    
+}
+.flex1 ul li a{
+    text-decoration: none;
+    color: white;
+}
+#border1{
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.offset-5{
+    width: 80px;
+    height: 80px;
+    background-color: aliceblue;
+    
+    
+}
+#logo{
+    position: absolute;
+    top: 150px;
+    border-radius: 30px;
+}
+#logo h1{
+    text-align: center;
+    margin-top: 15px;
+}
+.container{
+    
+    margin-top: 30px;
+   
+    
+}
+.container img{
+    width: 100px;
+    height: 100px;
+    
+    float: left;
+    margin-right: 10px;
+}
+
+
+#add{
+    margin: 10px 0px 0px 20px;
+    color: blue;
+}
+#p{
+    margin: 10px 0px 0px 30px;
+}
+.container .row #image1{
+    width: 300px;
+    height: 100px;
+    
+    overflow: hidden;
+}
+
+.col{
+    margin: 10px;
+    box-shadow: 2px 3px rgb(248, 246, 248);
+}
+
+.fixed{
+   
+   width: 90%;
+   position: absolute;
+   top: 250px;
+
+   right: auto;
+   bottom: auto;
+}
+.fixed .item1{
+     width: 50%;
+     margin: auto;
+     border: 0px solid black;
+     
+}
+.fixed .items{
+    padding-left: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+#food{
+    width: 100px;
+    border-radius: 15px;
+}
+#search{
+    width: 400px;
+    border-radius: 15px;
+}
+@media screen and (max-width:1000px) {
+    #food{
+       width: 200px;
+   }
+   #search{
+       width: 400px;
+   }
+@media screen and (max-width:700px) {
+     #food{
+        width: 100px;
+    }
+    #search{
+        width: 200px;
+    }
+}
+    
+
